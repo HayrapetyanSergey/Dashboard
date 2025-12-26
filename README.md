@@ -1,5 +1,4 @@
-
-### 1️⃣ Clone the repository
+### Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/HayrapetyanSergey/Dashboard
 cd Dashboard
