@@ -1,0 +1,64 @@
+.barChart-layout {
+    background-color: #111;
+    border-radius: 12px;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.barChart-filterSection {
+    background-color: #1a1a1a;
+    padding: 15px 20px;
+    border-bottom: 1px solid #333;
+}
+
+.barChart-filterRow {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.barChart-filterItem {
+    flex: 1;
+    min-width: 200px;
+}
+
+.barChart-variableDropdown {
+    width: 200px;
+}
+
+.barChart-variableDropdown .Select-control {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444 !important;
+    border-radius: 6px !important;
+    height: 36px !important;
+}
+
+.barChart-variableDropdown .Select-value-label,
+.barChart-variableDropdown .Select-placeholder {
+    color: white !important;
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+.barChart-dateRange {
+    width: 100% !important;
+}
+
+.barChart-dateFilterItem {
+    flex: 2;
+    min-width: 300px;
+}
+
+.barChart-chartContainer {
+    flex: 1;
+    background-color: #0a0a0a;
+    padding: 20px;
+}
+
+.barChart-graph {
+    width: 100%;
+    height: 100%;
+}
+
